@@ -1,1 +1,158 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T01:42:41.636Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" version="15.9.6" etag="6O6emZWJqCYtZ7kswpz0" type="github"><diagram id="RYEsuoV4xe6pTB31bAan">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-22T01:39:25.775Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="ttxI4D7y3RHr7AJnwUnr" version="15.9.6" type="github">
+  <diagram id="RYEsuoV4xe6pTB31bAan" name="Page-1">
+    <mxGraphModel dx="2253" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-1" target="7_6TNiynvOcHbqNdSXl5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="320" y="30" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-2" target="7_6TNiynvOcHbqNdSXl5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-9" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-2" target="7_6TNiynvOcHbqNdSXl5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-2" value="配置初始化" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="315" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-5" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="200" y="50" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-7" value="&lt;font style=&quot;font-size: 18px&quot;&gt;1. 初始化默认配置&lt;br&gt;2. 加载用户指定参数&lt;br&gt;3. 设置动态化参数（如主机名）&lt;br&gt;4. 检查并转换配置为内部表示&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="65" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-8" target="7_6TNiynvOcHbqNdSXl5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-14" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-8" target="7_6TNiynvOcHbqNdSXl5-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-8" value="安装预检" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="315" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-10" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="50" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-11" value="1. 安装用户检查&lt;br&gt;2. 目标安装版本兼容性检查&lt;br&gt;3. 操作系统环境检查&lt;br&gt;4. kubernetes基础服务检查&lt;br&gt;5. 网络环境检查" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="20" y="215" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-17" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-13" target="7_6TNiynvOcHbqNdSXl5-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-19" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-13" target="7_6TNiynvOcHbqNdSXl5-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-13" value="镜像检测和拉取" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="315" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-15" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="520" y="220" width="50" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-16" value="k8s.gcr.io/kube-apiserver&lt;br&gt;k8s.gcr.io/kube-controller-manager&lt;br&gt;k8s.gcr.io/kube-scheduler&lt;br&gt;k8s.gcr.io/kube-proxy&lt;br&gt;k8s.gcr.io/pause&lt;br&gt;k8s.gcr.io/etcd&lt;br&gt;k8s.gcr.io/coredns&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="537" y="230" width="290" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-18" target="7_6TNiynvOcHbqNdSXl5-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-24" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-18" target="7_6TNiynvOcHbqNdSXl5-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-18" value="配置本地kubelet服务" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="315" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-20" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="190" y="380" width="50" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-21" value="1. 写入/var/lib/kubelet/kubeadm-flags.env&lt;br&gt;2. 写入/var/lib/kubelet/config.yaml&lt;br&gt;3. 重启kubelet" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="400" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-23" target="7_6TNiynvOcHbqNdSXl5-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-29" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-23" target="7_6TNiynvOcHbqNdSXl5-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-23" value="检测/生成相关证书" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="315" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-25" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="50" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-26" value="1. 生成/etc/kubernetes/pki/*&lt;br&gt;2. 生成对应的kubeconfig文件&lt;br&gt;&amp;nbsp; &amp;nbsp;/etc/kubernetes/admin.conf&lt;br&gt;&amp;nbsp; &amp;nbsp;/etc/kubernetes/kubelet.conf&lt;br&gt;&amp;nbsp; &amp;nbsp;/etc/kubernetes/controller-manager.conf&lt;br&gt;&amp;nbsp; &amp;nbsp;/etc/kubernetes/scheduler.conf" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="537" y="455" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-28" target="7_6TNiynvOcHbqNdSXl5-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-34" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-28" target="7_6TNiynvOcHbqNdSXl5-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-28" value="检测/生成audit策略文件（如果启用audit特性）" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="315" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-30" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="150" y="630" width="50" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-32" value="/etc/kubernetes/audit/audit.conf" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="670" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-33" target="7_6TNiynvOcHbqNdSXl5-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-39" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-33" target="7_6TNiynvOcHbqNdSXl5-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-33" value="生成manifest文件" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="315" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-35" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="537" y="710" width="53" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-37" value="/etc/kubernetes/manifest/kube-apiserver.yaml&lt;br&gt;/etc/kubernetes/manifest/kube-controller-manager.yaml&lt;br&gt;/etc/kubernetes/manifest/kube-scheduler.yaml&lt;br&gt;/etc/kubernetes/mainfest/etcd.yaml" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="550" y="740" width="450" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-38" target="7_6TNiynvOcHbqNdSXl5-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-44" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-38" target="7_6TNiynvOcHbqNdSXl5-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-38" value="等待Control Plane启动完成" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="315" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-40" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="150" y="880" width="50" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-42" value="1. kubelet service&lt;br&gt;2. kube-apiserver" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="10" y="910" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-43" target="7_6TNiynvOcHbqNdSXl5-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-50" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="7_6TNiynvOcHbqNdSXl5-43" target="7_6TNiynvOcHbqNdSXl5-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-43" value="执行完成前的配置" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-45" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="550" y="940" width="70" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-47" value="1. 创建kube-system/kubeadm-config configMap, 配置RBAC权限&lt;br&gt;2. 创建kube-system/kubelet-config-&amp;lt;version&amp;gt; ConfigMap ,配置RBAC权限&lt;br&gt;3. 标记Master [node-role.kubernetes.io/master=]&lt;br&gt;4. 补充Master Annotation [CRISocket]&lt;br&gt;5. 设置Node Kubelet配置源&lt;br&gt;6. 创建bootstrap token Secret， 配置RBAC权限&lt;br&gt;7. 创建kube-public/cluster-info ConfigMap, 配置RBAC权限&lt;br&gt;8. 部署DNS服务&lt;br&gt;9. 部署Kube-proxy服务&lt;br&gt;10. 将Control Plane转为DeamonSet模式运行&lt;br&gt;11. 打印Join语句" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="580" y="940" width="600" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="7_6TNiynvOcHbqNdSXl5-49" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="1130" width="115" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
